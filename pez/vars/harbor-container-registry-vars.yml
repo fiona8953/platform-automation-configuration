@@ -2,12 +2,12 @@
 
 product-properties:
   harbor-app:
-    static_ips: 172.16.1.20
+    static_ips: 10.197.11.91
   properties:
     admin_password: ((harbor/admin_password))
     admin_password_for_smoketest: ((harbor/admin_password_for_smoketest))
     auth_mode: db_auth
-    hostname: harbor.haas-xxx.pez.pivotal.io
+    hostname: harbor-49.haas-59.pez.pivotal.io
     no_proxy: 127.0.0.1,localhost,ui,registry
     registry_storage: filesystem
     server_cert_key: ((harbor/server_cert_key))
